@@ -1,0 +1,96 @@
+.footer_wrapper{
+    height: 450px;
+}
+
+.footer_top{
+    padding: 20px 0;
+    height: 400px;
+    background-color: #10416F;
+}
+
+.footer_bottom{
+    height: 50px;
+    background-color: #1C5288;
+}
+
+.footer_top{
+    display: flex;
+    justify-content: center;
+    gap: 300px;
+    align-items: center;
+}
+.judul_footer{
+    color: white;
+    font-size:15px;
+}
+
+.judul_footer img{
+    /* width: 150px; */
+    padding-left: 64px;
+}
+
+.text{
+    /* margin-top: 20px; */
+    font-size: 12px;
+}
+.text :nth-child(1){
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.text :nth-child(3){
+    font-weight: 200;
+    text-transform: uppercase;
+}
+.footer_kontak h3{
+    width: 80px;
+    font-size: 24px;
+    color: white;
+    border-bottom: 2px solid white;
+
+}
+
+.contacs{
+    display: flex;
+    color: white;
+    justify-content: left;
+    align-items: center;
+    margin: 20px 0;    
+}
+.contacs p{
+    padding-left: 20px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.contacs img{
+    height: 30px;
+}
+
+.footer_links h3{
+    width: 60px;
+    font-size: 24px;
+    color: white;
+    border-bottom: 2px solid white;
+}
+
+.footer_sosmed{
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    gap: 20px;
+}
+
+/* .footer_sosmed img{
+    width: 40px;
+} */
+
+.footer_bottom{
+    text-align: center;
+    line-height: 50px;
+    color: white;
+}
+
+.footer_bottom h3{
+    font-weight: 400 ;
+}
